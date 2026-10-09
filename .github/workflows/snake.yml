@@ -1,0 +1,36 @@
+name: Generate Snake
+
+on:
+  # Ejecutar automáticamente todos los días
+  schedule:
+    - cron: "0 0 * * *"
+  # Ejecutar cuando se haga un cambio en el código
+  push:
+    branches:
+    - main
+  # Permitir ejecutarlo manualmente
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v3
+      
+      - name: Generar la serpiente
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: AstroLopitecus123
+          outputs: |
+            assets/github-snake-dark.svg?palette=github-dark
+            
+      - name: Subir la imagen al repositorio
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/github-snake-dark.svg
+          git commit -m "Actualizar animación de la serpiente" || exit 0
+          git push
