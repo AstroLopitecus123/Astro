@@ -152,7 +152,7 @@
   </a>
   <br><br><hr><br>
   <h3><i>¡Gracias por visitar mi perfil! Contribuyendo al contador...</i></h3>
-  <img src="https://count.getloli.com/get/@AstroLopitecus123?theme=minecraft&v=2" alt="Contador de Visitas" />
+  <img src="https://komarev.com/ghpvc/?username=AstroLopitecus123&label=Visitas%20al%20perfil&color=0e75b6&style=flat" alt="Contador de Visitas" />
 </div>
 
 <div align="center">
