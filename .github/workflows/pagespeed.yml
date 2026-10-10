@@ -24,6 +24,7 @@ jobs:
           base: ""
           # Configuración del plugin
           plugin_pagespeed: yes
-          plugin_pagespeed_detailed: yes
+          plugin_pagespeed_detailed: no
+          plugin_pagespeed_pwa: yes
           plugin_pagespeed_url: https://astro-web14.netlify.app/
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
