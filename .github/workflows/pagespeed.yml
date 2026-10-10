@@ -27,6 +27,6 @@ jobs:
           plugin_pagespeed_detailed: yes
           extras_css: |
             h2.field, h2.field + .field, .audits { display: none !important; }
-            .gauge text { font-size: 48px !important; font-weight: 700 !important; }
+            .gauge text { font-size: 55px !important; font-weight: 900 !important; }
           plugin_pagespeed_url: https://astro-web14.netlify.app/
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
