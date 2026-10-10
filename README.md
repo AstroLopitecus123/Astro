@@ -4,7 +4,9 @@
 
 <div align="center">
   <br>
-  <img src="./assets/spotify.svg?v=2" alt="Now Playing: Beethoven" />
+  <a href="https://open.spotify.com/intl-es/track/4kjZGzoruRTzapDQA6H3Hj?si=8c5c8970df214051" target="_blank">
+    <img src="./assets/spotify.svg?v=2" alt="Now Playing: Beethoven" />
+  </a>
   <br>
 </div>
 ---
