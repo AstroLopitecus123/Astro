@@ -24,3 +24,21 @@ jobs:
           plugin_anilist_medias: anime
           plugin_anilist_sections: favorites, watching
           plugin_anilist_limit: 2
+          output_action: none
+
+      - name: Traducir y Subir
+        run: |
+          if [ -f "assets/anilist.svg" ]; then
+            sed -i 's/Favorites genres:/Géneros favoritos:/g' assets/anilist.svg
+            sed -i 's/minutes watched/minutos vistos/g' assets/anilist.svg
+            sed -i 's/chapters read/capítulos leídos/g' assets/anilist.svg
+            sed -i 's/Favorites animes/Animes favoritos/g' assets/anilist.svg
+            sed -i 's/episodes/episodios/g' assets/anilist.svg
+            sed -i 's/Currently watching animes/Viendo actualmente/g' assets/anilist.svg
+            
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git add assets/anilist.svg
+            git commit -m "Generar y traducir Anilist" || echo "No changes to commit"
+            git push
+          fi
