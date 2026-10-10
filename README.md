@@ -2,10 +2,11 @@
   <img src="./assets/BannerInicio.png" alt="Banner Inicio" width="100%" />
 </div>
 
-
-
-
-
+<div align="center">
+  <br>
+  <img src="./assets/spotify.svg" alt="Now Playing: Beethoven" />
+  <br>
+</div>
 ---
 
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="45" align="absmiddle" /> Un poco sobre mí
