@@ -95,9 +95,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AstroLopitecus123&layout=compact&theme=tokyonight&hide_border=true&locale=es" alt="Top Languages" />
 </div>
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AstroLopitecus123&theme=tokyonight&hide_border=true&locale=es" alt="GitHub Streak" />
-</div>
+
 
 ---
 
