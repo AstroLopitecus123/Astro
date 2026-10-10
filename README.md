@@ -149,6 +149,12 @@
   <br>
 </div>
 
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Television.png" width="30" align="absmiddle" /> AniList
+
+<div align="center">
+  <img src="./assets/anilist.svg" alt="Mis Animes" />
+</div>
+
 ---
 
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="45" align="absmiddle" /> Contáctame
