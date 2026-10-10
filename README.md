@@ -114,7 +114,7 @@
 
 ---
 
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" width="45" align="absmiddle" /> Mis Certificaciones y Logros
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Party%20Popper.png" width="45" align="absmiddle" /> Mis Certificaciones
 
 <div align="center">
   <a href="./assets/Python1.png" target="_blank"><img src="./assets/Python1.png" alt="Python Essentials 1" width="120" style="margin: 5px;" /></a>
@@ -127,9 +127,9 @@
 
 ---
 
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Package.png" width="45" align="absmiddle" /> Algunos Widgets
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" width="45" align="absmiddle" /> Algunos Widgets
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Musical%20Notes.png" width="30" align="absmiddle" /> Música
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Headphone.png" width="30" align="absmiddle" /> Música
 
 <div align="center">
   <br>
