@@ -1,0 +1,26 @@
+name: Generar Metricas de AniList
+on:
+  # Ejecutar automáticamente todos los días
+  schedule: [{cron: "0 0 * * *"}]
+  # Ejecutar cuando se haga un cambio en el código
+  push: {branches: ["master", "main"]}
+  # Permitir ejecutarlo manualmente desde GitHub
+  workflow_dispatch:
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Generar AniList
+        uses: lowlighter/metrics@latest
+        with:
+          filename: assets/anilist.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          plugin_anilist: yes
+          plugin_anilist_user: AstroGato14
+          plugin_anilist_medias: anime
+          plugin_anilist_sections: favorites, watching
+          plugin_anilist_limit: 2
