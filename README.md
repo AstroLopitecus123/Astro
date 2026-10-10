@@ -4,7 +4,7 @@
 
 <div align="center">
   <br>
-  <img src="./assets/spotify.svg" alt="Now Playing: Beethoven" />
+  <img src="./assets/spotify.svg?v=2" alt="Now Playing: Beethoven" />
   <br>
 </div>
 ---
