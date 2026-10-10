@@ -90,7 +90,8 @@
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Desktop%20Computer.png" width="45" align="absmiddle" /> Otros Programas
 
 <div align="center">
-  <br>
+  <img src="https://svg-banners.vercel.app/api?type=luminance&text1=Diseño%20y%20Multimedia&width=800&height=120" alt="Diseño y Multimedia" />
+  <br><br>
   <a href="https://www.adobe.com/products/photoshop.html" target="_blank"><img src="https://skillicons.dev/icons?i=ps" alt="Photoshop" width="50" style="margin: 2px;" /></a>
   <a href="https://www.adobe.com/products/premiere.html" target="_blank"><img src="https://skillicons.dev/icons?i=pr" alt="Premiere" width="50" style="margin: 2px;" /></a>
   <a href="https://www.adobe.com/products/aftereffects.html" target="_blank"><img src="https://skillicons.dev/icons?i=ae" alt="After Effects" width="50" style="margin: 2px;" /></a>
