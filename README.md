@@ -2,13 +2,7 @@
   <img src="./assets/BannerInicio.png" alt="Banner Inicio" width="100%" />
 </div>
 
-<div align="center">
-  <br>
-  <a href="https://open.spotify.com/intl-es/track/4kjZGzoruRTzapDQA6H3Hj?si=8c5c8970df214051" target="_blank">
-    <img src="./assets/spotify.svg?v=2" alt="Now Playing: Beethoven" />
-  </a>
-  <br>
-</div>
+
 ---
 
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="45" align="absmiddle" /> Un poco sobre mí
@@ -129,6 +123,20 @@
   <a href="./assets/DataAnalytics.png" target="_blank"><img src="./assets/DataAnalytics.png" alt="Data Analytics Essentials" width="120" style="margin: 5px;" /></a>
   <a href="./assets/CCNA.png" target="_blank"><img src="./assets/CCNA.png" alt="CCNA" width="120" style="margin: 5px;" /></a>
   <a href="./assets/JavaScript2.png" target="_blank"><img src="./assets/JavaScript2.png" alt="JavaScript Essentials 2" width="120" style="margin: 5px;" /></a>
+</div>
+
+---
+
+# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Package.png" width="45" align="absmiddle" /> Algunos Widgets
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Musical%20Notes.png" width="30" align="absmiddle" /> Música
+
+<div align="center">
+  <br>
+  <a href="https://open.spotify.com/intl-es/track/4kjZGzoruRTzapDQA6H3Hj?si=8c5c8970df214051" target="_blank">
+    <img src="./assets/spotify.svg?v=2" alt="Now Playing: Beethoven" />
+  </a>
+  <br>
 </div>
 
 ---
