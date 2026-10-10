@@ -13,32 +13,21 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Generar AniList
-        uses: lowlighter/metrics@latest
-        with:
-          filename: assets/anilist.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          base: ""
-          plugin_anilist: yes
-          plugin_anilist_user: AstroGato14
-          plugin_anilist_medias: anime
-          plugin_anilist_sections: favorites, watching
-          plugin_anilist_limit: 2
-          output_action: none
+      - name: Checkout del código
+        uses: actions/checkout@v3
 
-      - name: Traducir y Subir
+      - name: Instalar Python y dependencias
         run: |
-          if [ -f "assets/anilist.svg" ]; then
-            sed -i 's/Favorites genres:/Géneros favoritos:/g' assets/anilist.svg
-            sed -i 's/minutes watched/minutos vistos/g' assets/anilist.svg
-            sed -i 's/chapters read/capítulos leídos/g' assets/anilist.svg
-            sed -i 's/Favorites animes/Animes favoritos/g' assets/anilist.svg
-            sed -i 's/episodes/episodios/g' assets/anilist.svg
-            sed -i 's/Currently watching animes/Viendo actualmente/g' assets/anilist.svg
-            
-            git config --global user.name "github-actions[bot]"
-            git config --global user.email "github-actions[bot]@users.noreply.github.com"
-            git add assets/anilist.svg
-            git commit -m "Generar y traducir Anilist" || echo "No changes to commit"
-            git push
-          fi
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Ejecutar script de AniList
+        run: python scripts/generate_anilist_card.py
+
+      - name: Subir la nueva imagen
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/anilist_custom.svg
+          git commit -m "Actualizar tarjeta personalizada de AniList" || echo "No changes to commit"
+          git push
