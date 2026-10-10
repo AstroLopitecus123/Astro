@@ -10,10 +10,22 @@
 <table width="100%">
   <tr>
     <td width="60%">
-      <p><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Alien%20Monster.png" alt="Alien Monster" width="25" align="absmiddle" /> <strong>Soy desarrollador Full Stack</strong> especializado en construir experiencias completas usando Java y Angular.</p>
-      <p><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" align="absmiddle" /> <strong>Aprendiz constante y curioso por naturaleza.</strong> Me encanta explorar nuevas tecnologías para crear aplicaciones más escalables y eficientes.</p>
-      <p><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Shooting%20Star.png" alt="Shooting Star" width="25" align="absmiddle" /> <strong>Creo proyectos por vocación.</strong> Me gusta investigar repositorios y probar herramientas nuevas que se vean interesantes para aplicarlas en mis proyectos y resolver problemas del día a día.</p>
-      <p><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Cat%20with%20Wry%20Smile.png" alt="Cat" width="25" align="absmiddle" /> <strong>Dato curioso:</strong> Cuando no estoy programando, veo algunos animes, pero sobre todo me encantan los gatos. ¡Eso explica a Neco-Arc trabajando aquí al lado!</p>
+      <p>
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Alien%20Monster.png" alt="Alien Monster" width="25" align="absmiddle" /> <strong>Soy desarrollador Full Stack</strong><br>
+        Especializado en construir experiencias completas usando Java y Angular.
+      </p>
+      <p>
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" align="absmiddle" /> <strong>Aprendiz constante y curioso por naturaleza</strong><br>
+        Me encanta explorar nuevas tecnologías para crear aplicaciones más escalables y eficientes.
+      </p>
+      <p>
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Shooting%20Star.png" alt="Shooting Star" width="25" align="absmiddle" /> <strong>Creo proyectos por vocación</strong><br>
+        Me gusta investigar repositorios y probar herramientas nuevas que se vean interesantes para aplicarlas en mis proyectos y resolver problemas del día a día.
+      </p>
+      <p>
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Cat%20with%20Wry%20Smile.png" alt="Cat" width="25" align="absmiddle" /> <strong>Dato curioso</strong><br>
+        Cuando no estoy programando, veo algunos animes, pero sobre todo me encantan los gatos. ¡Eso explica a Neco-Arc trabajando aquí al lado!
+      </p>
     </td>
     <td width="40%" align="center" valign="middle">
       <img src="./assets/Neco-Teclado.gif" alt="Neco Animación" width="100%" />
