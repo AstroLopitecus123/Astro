@@ -154,10 +154,7 @@
 # <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="45" align="absmiddle" /> Contáctame
 
 <div align="center">
-  <a href="https://discord.com/users/723238317595951155" target="_blank">
-    <img src="./assets/DiscordContacto.png" alt="Discord Contacto" width="550" />
-  </a>
-  <br><br>
+
   <p><i>Mi estado actual en Discord por si quieres hablar...</i></p>
   <a href="https://discord.com/users/723238317595951155" target="_blank">
     <img src="https://lanyard.cnrad.dev/api/723238317595951155?theme=dark&bg=1a1b26&animated=true&idleMessage=Sin%20actividad%20en%20este%20momento..." alt="Estado en Discord" />
