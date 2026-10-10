@@ -109,7 +109,7 @@
 <div align="center">
   <p>Análisis en tiempo real de <b><a href="https://astro-web14.netlify.app/" target="_blank">Astro Web</a></b></p>
   <a href="https://astro-web14.netlify.app/" target="_blank">
-    <img src="./assets/pagespeed.svg?v=5" alt="Métricas PageSpeed" />
+    <img src="./assets/pagespeed.svg?v=7" alt="Métricas PageSpeed" />
   </a>
 </div>
 
